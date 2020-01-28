@@ -1,5 +1,5 @@
 body {
-    background-color :#a83e32;
+    background-color :#2d7366;
     font-family: Helvetica;
     font-size:20px;
     color:#732d51;
@@ -8,12 +8,21 @@ body {
 
         
 a {
-    color: #2d6e73;
+    color: #732d68;
     padding: 0.25em;
+    transition: background-color 300ms;
 }
         
         
         
 a:hover{
-    background-color:#2d7358;
+    background-color:#73662d;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
 }
