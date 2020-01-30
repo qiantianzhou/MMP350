@@ -1,0 +1,17 @@
+body{
+    background-color:#addaed;
+    color:#7d095a;
+    font-family: Geneva;
+}
+p{
+    font-size: 1.25em;
+}
+
+#container{
+    max-width:600px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
