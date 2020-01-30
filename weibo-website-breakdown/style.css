@@ -1,0 +1,33 @@
+body{
+    background-color:#604868;
+    color:#9ab591;
+    font-family: Helvetica;
+
+}
+
+p{
+    font-size:28x;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #154360;
+}
+
+
+
+#container{
+    max-width:800px;
+    margin:0 auto;
+    
+}
+img {
+    max-width: 100%;
+}
+
+.img{
+    margin:30px 30px 30px 30px;
+}
+
+
+
