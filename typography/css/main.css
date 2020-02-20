@@ -9,3 +9,14 @@
     max-width: 800px;
     margin: 0 auto;
 }
+
+
+button, input {
+    font-family: inherit;
+    background: none;
+    border: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px 6px;
+    line-height: 1;
+}
