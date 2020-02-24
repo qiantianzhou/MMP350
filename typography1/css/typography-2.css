@@ -1,0 +1,35 @@
+.post-text {
+	font-size: 1.25em;
+    font-family: 'ZCOOL QingKe HuangYou';
+}
+.post-date {
+	color: gray;
+    font-size:0.5em;
+}
+
+.post-author {
+    font-family: 'Odibee Sans';
+    color: darkblue;
+}
+
+.post {
+    line-height: 2;
+}
+
+
+
+/*
+
+input, {
+    font-family: 'ZCOOL QingKe HuangYou';
+
+}
+*/
+
+
+h1,
+button,
+a,
+.post-date{
+    font-family: 'Odibee Sans';
+}

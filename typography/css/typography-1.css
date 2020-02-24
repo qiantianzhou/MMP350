@@ -1,0 +1,33 @@
+.post-text {
+	font-size: 1.25em;
+    
+}
+.post-date {
+	color: gray;
+    font-size:0.5em;
+}
+
+.post-author {
+
+    color: darkblue;
+}
+
+.post {
+    line-height: 2;
+}
+
+
+
+.post,
+input, {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+h1,
+button,
+a,
+.post-date{
+    font-family: 'Lato', sans-serif;
+}
