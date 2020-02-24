@@ -14,3 +14,11 @@ loginButton.onclick = function(){
 
 
 };
+
+function onError(errorMessage) {
+	loginMessage.textContent = errorMessage;
+}
+
+function userLoggedIn(uid, displayName) {
+	userName.textContent = "Welcome " + displayName;
+    }
