@@ -1,0 +1,21 @@
+/*/*
+	type pairing 2
+	font-family: 'Tomorrow', sans-serif;
+	font-family: 'Kalam', cursive;
+*/
+
+h1,
+input,
+button,
+textarea {
+	font-family: 'Kalam', cursive;
+}
+
+.post,
+a {
+	font-family: 'Tomorrow', sans-serif;
+}
+
+.post-date {
+	color: gray;
+}*/
