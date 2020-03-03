@@ -1,0 +1,32 @@
+
+
+
+:root {
+	--main-color: #734230;
+	--accent-color:#F2CB05;
+	--placeholder-color:#F29F05;
+}
+
+
+/*:root {
+	--main-color:#6F77A6;
+	--accent-color:#F2C7AE;
+	--placeholder-color:#022859;
+}*/
+
+button, input, textarea{
+	background-color: var(--main-color);
+	border-color: var(--accent-color);
+	color: var(--placeholder-color);
+}
+button::placeholder, input::placeholder, textarea::placeholder{
+	color: var(--accent-color);
+}
+
+.post{
+	border-color: var(--main-color);
+}
+
+#title{
+	color: var(--accent-color);
+}

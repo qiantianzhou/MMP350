@@ -6,31 +6,13 @@
 }
 
 .post-text {
-	font-size: 1em;
-    font-family: 'Open Sans';
 
 }
 
 .post-author {
-	font-family: 'Lora';
-    color: darkblue;
 
 }
 
 .post-date {
-	color: gray;
-    font-size: 1em;
 	
-}
-
-input, {
-    font-family: 'Open Sans';
-
-}
-
-h1,
-button,
-a,
-.post-date{
-    font-family: 'Lora';
 }
