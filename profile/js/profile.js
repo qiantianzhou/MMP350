@@ -4,7 +4,7 @@ fb.getUserProfile(profileUID);
 const profileName = js.getEl("profile-display-name");
 const profileBio = js.getEl("profile-bio");
 const profileButton = js.getEl("update-profile");
-const profileEmail = js.getEL("profile-email");
+const profileEmail = js.getEl("profile-email");
 const profileLocation = js.getEl("profile-location");
 
 
