@@ -20,7 +20,7 @@ function createPost(postData, userInfo, postId) {
     if (userInfo.imageURL) {
         userImage.src = userInfo.imageURL;
     } else {
-        userImage.src = "img/image.jpg";
+        userImage.src = "img/image.JPG";
     }
     post.appendChild(userImage);
 
