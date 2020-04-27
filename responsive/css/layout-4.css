@@ -1,0 +1,32 @@
+#container{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 1em;
+
+	grid-template-areas:
+		"menu menu"
+		"main title"
+		"main publish"
+		"main nothing";
+}
+
+#title{
+	grid-area: title;
+}
+
+#login{
+	grid-area:menu;
+}
+
+#user-info{
+	grid-area: menu;
+}
+
+#publish-post{
+	grid-area: publish;
+}
+
+#posts,
+#profile{
+	grid-area: main;
+}

@@ -1,0 +1,26 @@
+#container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2em;
+
+	grid-template-areas:
+		"title title login"
+		"publish publish publish"
+		"posts posts posts";
+}
+
+#title{
+	grid-area: title;
+}
+
+#login, #user-info{
+	grid-area: login;
+}
+
+#publish-post{
+	grid-area: publish;
+}
+
+#posts{
+	grid-area: posts;
+}
