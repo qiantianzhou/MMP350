@@ -24,6 +24,6 @@ function publishPost() {
 
 
 
-	fb.publishPost(uid, publishText.value);
+	
 	publishText.value = ""; // reset textarea
 }

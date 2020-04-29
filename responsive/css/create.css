@@ -1,0 +1,12 @@
+#sign-up{
+	display: flex;
+	align-items: center;
+	align-content : space-evenly;
+	flex-wrap: wrap;
+	
+}
+
+#sign-up-button{
+	
+	font-size:1.5em;
+}

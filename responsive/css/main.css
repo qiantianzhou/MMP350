@@ -15,11 +15,11 @@ button, input {
 }
 
 img {
-	width: 100%;
+	width: 40%;
 }
 
 #container {
-	max-width: 800px;
+	max-width: 960px;
 	margin: 0 auto;
 }
 
@@ -30,7 +30,10 @@ body.auth #login {
 }
 
 body.auth #profile-image-input,
-body.auth #update-profile-image,
+body.auth #update-profile-image{
+	display: block;
+}
+
 body.auth #user-info {
 	display: block;
 }

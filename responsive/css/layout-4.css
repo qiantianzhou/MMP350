@@ -1,4 +1,7 @@
 #container{
+	
+	max-width: 960px;
+	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	grid-gap: 1em;
@@ -26,6 +29,7 @@
 	grid-area: publish;
 }
 
+#sign-up,
 #posts,
 #profile{
 	grid-area: main;

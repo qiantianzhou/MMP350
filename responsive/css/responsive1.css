@@ -1,0 +1,77 @@
+@media (max-device-width: 375px){
+
+	body{
+		font-size: 24px;
+		line-height: 1.4;
+	}
+	button{
+		font-size: 1em;
+	}
+	#container{
+
+		min-width: inherit;
+		max-width: 100%;
+
+		grid-template-columns: 100%;
+		grid-template-areas:
+			"title"
+			"menu"
+			"publish"
+			"main";
+
+	}
+	#publish-button{
+		float: left;
+		margin-top: 5px; 
+	}
+
+	#user-name{
+		flex-basis:100%;
+
+	}
+	#post-image-input{
+		float: left;
+	}
+
+	#logout-button{
+		float: right;
+	}
+
+	#edit-profile-link{
+		margin-left: 0;
+	}
+
+	#login-email{
+		margin-left: 0;
+
+	}
+	#login-button{
+		margin-top: 10px;
+
+	}
+	#title h1 a{
+		font-size: 15vw;
+	}
+	.post-text{
+		padding: 0.5em;
+		font-size: 0.9em;
+	}
+	.post-profile-image{
+		width: 50px;
+		border-radius: 0;
+		
+	}
+}
+
+@media (min-device-width: 415px) and (max-device-width: 1024px){
+
+	#container{
+		min-width: inherit;
+		max-width: 100%;
+
+		grid-template-columns: 1fr 2fr;
+		grid-template-areas:
+			"title menu"
+			"publish main"
+			"nothing main";
+}
