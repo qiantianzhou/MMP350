@@ -28,13 +28,12 @@
 @media screen and (max-width:650px) {
 	#container{
 		
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 
 		grid-template-areas:
-			"title title"
-			"login nothing"
-			"publish publish"
-			"post post";
+			"title title login"
+			"publish publish publish"
+			"posts posts posts";
 			
 			
 		

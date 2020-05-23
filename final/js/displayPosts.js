@@ -12,10 +12,9 @@ function createPost(postData, userInfo, postId) {
     // add posts in chronological
     //  posts.appendChild(post);
     
-    const text = js.createEl('div', 'post-text', postData.text);
+    const tagged = fb.tagText(postData);
+    const text = js.createEl('div', 'post-text', tagged);
     post.appendChild(text);
-
-    
 
     // add profile image
     const userImage = js.createEl('img', 'post-profile-image');
@@ -26,14 +25,34 @@ function createPost(postData, userInfo, postId) {
     }
     post.appendChild(userImage);
 
-
-
     if(postData.imageURL) {
 
         const postImage = js.createEl('img', 'post-image');
         postImage.src = postData.imageURL;
         post.appendChild(postImage);
     }
+    userImage.onclick = function() {
+        location.href = 'profile.html?uid=' + postData.uid;
+    };
+    post.appendChild(userImage);
+
+    const info = js.createEl('div', 'post-info');
+    post.appendChild(info);
+
+    info.appendChild( js.createEl('span', 'author-by', 'by ') );
+
+    // adding the author link 
+    const author = js.createEl('a', 'post-author', userInfo.displayName);
+    author.href = 'user.html?uid=' + postData.uid;
+    info.appendChild(author);
+
+
+    // adding the permalink
+    const link = js.createEl('a', 'permalink', 'Link');
+    link.href = 'post.html?id=' + postId;
+    info.appendChild(link);
+
+
 
 
 
