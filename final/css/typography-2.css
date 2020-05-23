@@ -1,8 +1,3 @@
-/*
-	type pairing 2
-	font-family: 'Tomorrow', sans-serif;
-	font-family: 'Kalam', cursive;
-*/
 
 h1,
 h1 a,
@@ -10,12 +5,12 @@ input,
 button,
 textarea
 p {
-	font-family: 'lato', cursive;
+	font-family: 'lato', 
 }
 
 .post,
 a {
-	font-family: 'lato', sans-serif;
+	font-family: 'lato', 
 }
 
 .post-date {
