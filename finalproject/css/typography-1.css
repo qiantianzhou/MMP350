@@ -1,0 +1,33 @@
+.post-text {
+	font-size: 1.25em;
+    font-family: 'Open Sans';
+}
+.post-date {
+	color: gray;
+    font-size: 1em;
+}
+
+.post-author {
+    font-family: 'Lora';
+    color: darkblue;
+}
+
+.post {
+    line-height: 2;
+}
+
+
+
+
+input, {
+    font-family: 'Open Sans';
+
+}
+
+
+h1,
+button,
+a,
+.post-date{
+    font-family: 'Lora';
+}

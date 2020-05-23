@@ -1,0 +1,53 @@
+
+/*
+
+:root {
+	--main-color: #734230;
+	--accent-color:#F2CB05;
+	--placeholder-color:#F29F05;
+}
+*/
+
+/*:root {
+	--main-color:#6F77A6;
+	--accent-color:#F2C7AE;
+	--placeholder-color:#022859;
+}*/
+:root {
+	/* complementary */
+	--main-hue: 360;
+	--accent-one: calc(var(--main-hue) + 180);
+
+	--main-color: hsl(var(--main-hue), 40%, 40%);
+	--accent-color: hsl(var(--accent-one), 40%, 60%);
+	--placeholder-color: hsl(var(--accent-one), 60%, 50%);
+}
+
+
+
+
+button, input, textarea {
+	background-color: var(--main-color);
+	border-color: var(--accent-color);
+	color: var(--accent-color);
+}
+
+button::placeholder, input::placeholder, textarea::placeholder {
+	color: var(--placeholder-color);
+}
+
+a {
+	color: var(--accent-color);
+}
+
+a:hover {
+	color: var(--main-color);
+}
+
+.post {
+	border-color: var(--accent-color);
+}
+
+#title {
+	color: var(--accent-color);
+}
